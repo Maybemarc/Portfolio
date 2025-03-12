@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="./Assets/Svg/portfolio_281089.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alatsi&family=Bebas+Neue&family=Big+Shoulders+Inline:opsz,wght@10..72,100..900&family=Darker+Grotesque:wght@300..900&family=Jersey+15&family=Rubik+Glitch&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <div id="Top_Navbar">
+      <div class="nav">
+        <div class="Navbar">
+          <div class="left_nav">Welcome</div>
+          <div class="menu-btn" onclick="openMenu()">☰</div>
+          <div class="nav_links">
+            <div class="nav_Right"><a class="Home" href="#Hero ">Home</a></div>
+            <div class="nav_Right">
+              <a href="https://github.com/Maybemarc" target="_blank">Github</a>
+            </div>
+            <div class="nav_Right">
+              <a class="Goto_project" href="#project ">Project</a>
+            </div>
+            <div class="nav_Right">
+              <a href="./Surya.k-Resume.jpg" download="My_ Surya.k-Resume.jpg"
+                >Resume</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="sidebar">
+      <div class="sidebar-content">
+        <div class="close-btn" onclick="closeMenu()">×</div>
+        <div class="sidebar-links">
+          <div class="nav_Right">Home</div>
+          <div class="nav_Right">
+            <a href="https://github.com/Maybemarc" target="_blank">Github</a>
+          </div>
+          <div class="nav_Right">
+            <a href="#project">Project</a>
+          </div>
+          <div class="nav_Right">Resume</div>
+        </div>
+      </div>
+    </div>
+
+    <div id="overlay" onclick="closeMenu()"></div>
+
+    <div id="Hero">
+      <div class="container">
+        <h1 class="contents">Web</h1>
+        <h1 class="content">Developer</h1>
+        <h2 class="Typing">Im Thor</h2>
+      </div>
+    </div>
+
+    <div id="About" class="section">
+      <div class="About_Myself">
+        <h1 class="About_h1">About -</h1>
+        <h1 class="About_description">
+          Hi, I'm Surya.K, a passionate web developer with a strong foundation
+          in HTML, CSS, JavaScript, and React. I love creating clean,
+          user-friendly websites and applications that not only look great but
+          also function seamlessly. My journey began with front-end development,
+          where I learned my skills in crafting responsive designs and
+          interactive web pages. As I grew, I expanded my expertise to back-end
+          technologies, building full-stack solutions using modern tools and
+          frameworks. Currently, I'm working on projects that showcase my
+          knowledge of web development practices and principles, with a focus on
+          creating impactful, performance-driven websites. I'm always eager to
+          learn and explore new technologies.
+        </h1>
+      </div>
+    </div>
+
+    <div class="scroll-container section">
+      <p>
+        <img src="./Assets/Svg/star_11916808.png" alt="" />
+        <img src="./Assets/Svg/star_11916808.png" alt="" />
+        <img src="./Assets/Svg/star_11916808.png" alt="" />
+        Frontend Development
+        <img src="./Assets/Svg/star_11916808.png" alt="" />
+        <img src="./Assets/Svg/star_11916808.png" alt="" />
+        <img src="./Assets/Svg/star_11916808.png" alt="" />
+        Backend Development
+        <img src="./Assets/Svg/star_11916808.png" alt="" />
+        <img src="./Assets/Svg/star_11916808.png" alt="" />
+        <img src="./Assets/Svg/star_11916808.png" alt="" />
+        Frontend Development
+        <img src="./Assets/Svg/star_11916808.png" alt="" />
+        <img src="./Assets/Svg/star_11916808.png" alt="" />
+        <img src="./Assets/Svg/star_11916808.png" alt="" />
+        Backend Development
+        <img src="./Assets/Svg/star_11916808.png" alt="" />
+        <img src="./Assets/Svg/star_11916808.png" alt="" />
+        <img src="./Assets/Svg/star_11916808.png" alt="" />
+      </p>
+    </div>
+
+    <div id="Flow" class="section">
+      <div class="About_Myself Education">
+        <h1 class="Education_header">
+          <img src="./Assets/book_2436702.png" />
+          Education -
+        </h1>
+        <br />
+        <h1 class="Education_h1">
+          <img src="./Assets/certificate_3373448.png" />
+          B.E - Computer Science and Engineering
+        </h1>
+        <p>Sep 2021 - May 2025</p>
+        <h2>CGPA : 7.4</h2>
+        <h1 class="Education_h1">Nandha College of Technology,Erode,TN</h1>
+        <h1 class="Education_header">
+          <img src="./Assets/Svg/icons8-school-100.png" height="32px" />
+          HSC - Computer Science
+        </h1>
+        <p>Jul 2019 -Apr 2021</p>
+        <h2>Percentage : 80%</h2>
+        <h1 class="Education_header">
+          <img src="./Assets/Svg/icons8-school-100.png" height="32px" />
+          SSLC
+        </h1>
+        <p>Apr 2019</p>
+        <h2>Percentage : 73%</h2>
+        <div class="Education_last"></div>
+      </div>
+    </div>
+
+    <div id="project" class="not_section">
+      <div class="project_details">
+        <h1>My Projects</h1>
+        <h3>
+          A full-stack personal blog site where users can register, log in, and
+          manage their own blog posts. It features secure authentication using
+          JWT and cookies, ensuring data privacy. Users can create, edit,
+          update, and delete blog posts with a seamless UI built in React. The
+          backend follows RESTful API principles, handling authentication and
+          CRUD operations efficiently. PostgreSQL is used for structured data
+          storage, and the entire project is deployed on Vercel for high
+          availability and scalability.
+        </h3>
+      </div>
+      <div class="project_Container">
+        <div class="project_Content">
+          <a href="https://blog-aci3.vercel.app/" target="_blank">
+            <img
+              src="./Assets/Screenshot 2025-03-11 214754.png"
+              width="100%"
+              height="300px"
+            />
+          </a>
+          <p>
+            Pern Blog Site
+            <a class="link" href="https://blog-aci3.vercel.app/" target="_blank"
+              ><img src="./Assets/Svg/link_9513904.png" height="32px"
+            /></a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div id="skill" class="not_section">
+      <h3 class="content_h1">Skills</h3>
+      <div class="content_icon">
+        <h2>
+          I am a passionate and self-motivated individual who thrives in both
+          collaborative and independent work environments. Adaptable and quick
+          to learn, I embrace challenges with a problem-solving mindset.With a
+          strong eye for detail and a commitment to excellence, I approach every
+          task with enthusiasm and a drive to succeed.
+        </h2>
+      </div>
+      <div class="whole_Container">
+        <div class="icon_container">
+          <div class="img_icon">
+            <img class="icons" src="./Assets/Svg/web_15474213.png" />
+          </div>
+          <p class="icon_name">Html</p>
+        </div>
+
+        <div class="icon_container">
+          <div class="img_icon">
+            <img class="icons" src="./Assets/Svg/css-3_732190.png" />
+          </div>
+          <p class="icon_name">Css</p>
+        </div>
+        <div class="icon_container">
+          <div class="img_icon">
+            <img class="icons" src="./Assets/Svg/js_5968292.png" />
+          </div>
+          <p class="icon_name">JavaScript</p>
+        </div>
+        <div class="icon_container">
+          <div class="img_icon">
+            <img class="icons" src="./Assets/Svg//physics_753244.png" />
+          </div>
+          <p class="icon_name">React</p>
+        </div>
+        <div class="icon_container">
+          <div class="img_icon">
+            <img class="icons" src="./Assets/Svg/bootstrap_5968680.png" />
+          </div>
+          <p class="icon_name">BootStrap</p>
+        </div>
+        <div class="icon_container">
+          <div class="img_icon">
+            <img
+              class="icons"
+              src="./Assets/Svg/icons8-nodejs-96.png"
+              height="64px"
+            />
+          </div>
+          <p class="icon_name">Node js</p>
+        </div>
+        <div class="icon_container">
+          <div class="img_icon">
+            <img
+              class="icons"
+              src="./Assets/Svg/icons8-express-js-96.png"
+              height="64px"
+            />
+          </div>
+          <p class="icon_name">Express js</p>
+        </div>
+        <div class="icon_container">
+          <div class="img_icon">
+            <img class="icons" src="./Assets/Svg/sql-server_17266017.png" />
+          </div>
+          <p class="icon_name">
+            SQL <br />
+            Database
+          </p>
+        </div>
+        <div class="icon_container">
+          <div class="img_icon">
+            <img class="icons" src="./Assets/Svg/python_5968350.png" />
+          </div>
+          <p class="icon_name">Python <br />(Basics)</p>
+        </div>
+        <div class="icon_container">
+          <div class="img_icon">
+            <img class="icons" src="./Assets/Svg/api_4180439.png" />
+          </div>
+          <p class="icon_name">API</p>
+        </div>
+        <div class="icon_container">
+          <div class="img_icon">
+            <img class="icons" src="./Assets/Svg/git_4494740.png" />
+          </div>
+          <p class="icon_name">Git</p>
+        </div>
+        <div class="icon_container">
+          <div class="img_icon">
+            <img class="icons" src="./Assets/Svg/github_3291695.png" />
+          </div>
+          <p class="icon_name">Githhub</p>
+        </div>
+        <div class="icon_container">
+          <div class="img_icon">
+            <img
+              class="icons"
+              src="./Assets/Svg/icons8-postman-api-64.png"
+              height="64px"
+            />
+          </div>
+          <p class="icon_name">Postman</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="footer">
+      <div class="down_content">
+        <div class="down_contents">
+          <ul>
+            <p>
+              Passionate and self-motivated, I thrive in both team and
+              independent environments. Adaptable and eager to learn, I embrace
+              challenges with a problem-solving mindset. Dedicated to delivering
+              high-quality results.
+            </p>
+          </ul>
+        </div>
+        <div class="down_contents">
+          <ul class="down_links">
+            <p>Navigation</p>
+            <li><a class="down_link" href="#Hero">Home</a></li>
+            <li><a class="down_link" href="#skill">Skills</a></li>
+            <li><a class="down_link" href="#project">Project</a></li>
+          </ul>
+        </div>
+        <div class="down_contents">
+          <ul>
+            <p>Contact</p>
+            <li>
+              <a href="mailto:marcspectre777@gmail.com" target="_blank"
+                ><img src="./Assets/Svg/gmail_5968534.png" />
+                marcspectre777@gmail.com</a
+              >
+            </li>
+            <li>
+              <a href="https://github.com/Maybemarc" target="_blank">
+                <img src="./Assets/Svg/github_3291695 (1).png" />
+                github.com/Maybemarc
+              </a>
+            </li>
+            <li>
+              <a href="" target="_blank"
+                ><img src="./Assets/Svg/linkedin_2504923.png" /> linkedin
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="./index.js"></script>
+</html>
