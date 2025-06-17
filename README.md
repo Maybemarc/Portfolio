@@ -22,8 +22,6 @@ A responsive and dynamic developer portfolio website built to showcase projects,
 
 ---
 
-## 📂 Folder Structure
-
 
 
 ![Screenshot 2025-04-28 152100](https://github.com/user-attachments/assets/03b79137-f0ae-4a39-86a9-467c1a334391)
