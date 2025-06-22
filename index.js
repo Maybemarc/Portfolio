@@ -1,5 +1,3 @@
-// alert("hello")
-
 ///////Navbar////
 
 function openMenu() {
