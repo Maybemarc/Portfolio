@@ -5,7 +5,7 @@ A responsive and dynamic developer portfolio website built to showcase projects,
 
 ---
 
-## ⚙️ Tech Stack
+## ⚙️ Tech Stack - 
 
 - **Frontend**: HTML, CSS, JavaScript, React.js
 - **Design**: Flexbox, Grid, Custom CSS Animations
