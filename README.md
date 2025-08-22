@@ -13,7 +13,7 @@ A responsive and dynamic developer portfolio website built to showcase projects,
 
 ---
 
-## 🚀 Features
+## 🚀 Features - 
 
 - 🧑‍💼 Clean and responsive layout tailored for recruiters and hiring managers
 - 🧰 Interactive sections for **Projects**, **Skills**, **Experience**, and **Contact**
